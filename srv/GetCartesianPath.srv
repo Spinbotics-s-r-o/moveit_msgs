@@ -71,3 +71,5 @@ float64 fraction
 
 # The error code of the computation
 MoveItErrorCodes error_code
+
+string error_reason
