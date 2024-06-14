@@ -24,6 +24,7 @@ uint8 XYZ_EULER_ANGLES=0
 # - A rotation vector. This is similar to the angle-axis representation,
 # but the magnitude of the vector represents the rotation angle.
 uint8 ROTATION_VECTOR=1
+uint8 GRAVITATIONAL_VECTOR=2
 
 # A weighting factor for this constraint (denotes relative importance to other constraints. Closer to zero means less important)
 float64 weight
