@@ -57,6 +57,9 @@ float64 max_acceleration_scaling_factor
 string cartesian_speed_limited_link
 float64 max_cartesian_speed # m/s
 
+# If we want to get raw trajectory, we have to turn off timeOptimalTrajectoryGeneration
+bool use_time_optimization
+
 ---
 
 # The state at which the computed path starts
